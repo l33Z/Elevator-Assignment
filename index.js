@@ -38,17 +38,17 @@ levelZero_up.addEventListener("click", () => {
 
 // ------------------- Play Audio -------------------
 const clickAudio = () => {
-  var audio = new Audio("./sound/btnClick.mp3");
+  var audio = new Audio("./assets/btnClick.mp3");
   audio.play();
 };
 
 const playAudio5s = () => {
-  var audio = new Audio("./sound/BgSound.mp3");
+  var audio = new Audio("./assets/BgSound.mp3");
   audio.play();
 };
 
 const playAudio10s = () => {
-  var audio = new Audio("./sound/BgSound10s.mp3");
+  var audio = new Audio("./assets/BgSound10s.mp3");
   audio.play();
 };
 
