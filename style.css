@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #23272c;
+  text-transform: capitalize;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+}
+
+.floor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  position: relative;
+}
+
+.btns {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-solid {
+  cursor: pointer;
+  font-size: 3.3rem;
+  color: white;
+  transition: scale 0.3s ease-in-out;
+}
+
+.fa-solid:hover {
+  scale: 1.5;
+}
+
+.level {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  background-color: #212d2b61;
+  overflow: hidden;
+}
+
+.level_title {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+#elevator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  width: 75%;
+  height: 80%;
+  background: linear-gradient(90deg, #3d4a56, #2c3844);
+  border-radius: 0.5rem;
+  z-index: 5;
+}
+
+#elevator_btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.5rem 1.7rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.5rem 1rem rgba(2, 2, 2, 0.374);
+}
